@@ -5,7 +5,7 @@ on:
       - reopened
       - opened
 jobs:
-  label_issues:
+  print_issues:
     runs-on: ubuntu-latest
     permissions:
       issues: write
